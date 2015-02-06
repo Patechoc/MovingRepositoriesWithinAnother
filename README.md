@@ -1,5 +1,5 @@
 A simple shell script to move a repository within another one while keeping all its history of commits.
-Using the post by [Benjamin Peirce](http://bpeirce.me/moving-one-git-repository-into-another.html).
+Based on the post by [Benjamin Peirce](http://bpeirce.me/moving-one-git-repository-into-another.html).
 
 Usage:
 `./script.sh subprojectName mainRepo subprojectRepo`
@@ -8,9 +8,9 @@ Usage:
 Example:
 `./script.sh mapNorway https://github.com/mapWorld https://github.com/mapNorge`
 
-Originally with a file structure like these:
+Originally with file structures like these:
 ```
-mapWorl/
+mapWorld/
 ├── mapChina/
 │   ├── ...
 │   └── ...
@@ -25,6 +25,7 @@ mapWorl/
     ├── ...
     └── ...
 ```
+and
 ```
 mapNorge/
 ├── img/
@@ -40,9 +41,9 @@ mapNorge/
     └── ...
 ```
 
-You want to achieve this:
+This is what you want to achieve:
 ```
-mapWorl/
+mapWorld/
 ├── mapChina/
 │   ├── ...
 │   └── ...

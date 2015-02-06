@@ -9,11 +9,6 @@ subprojNewName=$1
 nameRepoMainproj=$2
 nameRepoSubproj=$3
 
-
-#nameRepoMainproj=https://github.com/Patechoc/TALKS.git 
-#nameRepoSubproj=https://github.com/Patechoc/2011-03-18_CTCCseminar_CompChem_for_SyntheticBiology.git
-#subprojNewName=2011-03-18_CTCCseminar_CompChem_for_SyntheticBiology
-
 currentDir=`echo $PWD`
 echo "current dir: "$currentDir
 
