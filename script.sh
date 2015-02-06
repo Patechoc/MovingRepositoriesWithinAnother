@@ -41,6 +41,8 @@ git gc --aggressive
 
 rm -rf $subprojPath
 
-echo "Check the content of your local merged repositories here: ",$mainprojPath
-echo "Feel free to push it now:\n git push"
+echo "\nCheck the content of your local merged repositories here:\n"
+echo $mainprojPath
+
+echo "\nFeel free to push it now:\n git push"
 
